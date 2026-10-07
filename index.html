@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Semester Mark Estimator</title>
+</head>
+
+<body>
+  
+  <div class="main">
+    <h2>Semester Mark Estimator - SMTH000</h2>
+    <div class="input">
+      <div class="section">
+        <h4>Enter Test Marks (All marks above 50 must be entered as 50.)</h4>
+      <tests>
+  Test 1: <input type="number" id="test1" min="0" max="50">
+        </tests>
+<tests>
+  Test 2: <input type="number" id="test2" min="0" max="50">
+  </tests><br> 
+<tests>
+  Test 3: <input type="number" id="test3" min="0" max="50">
+  </tests>
+<tests>
+  Test 4: <input type="number" id="test4" min="0" max="50">
+  </tests><br>
+<tests>
+  Test 5: <input type="number" id="test5" min="0" max="50">
+</tests>
+ </div>
+  <div class="section">
+<h4>Enter Quiz Marks (All marks above 5 must be entered as 5.)</h4>
+<tests>
+  Quiz 1: <input type="number" id="quiz1" min="0" max="5">
+        </tests>
+<tests>
+  Quiz 2: <input type="number" id="quiz2" min="0" max="5">
+</tests><br>
+<tests>
+  Quiz 3: <input type="number" id="quiz3" min="0" max="5">
+  </tests>
+<tests>
+  Quiz 4: <input type="number" id="quiz4" min="0" max="5">
+  </tests><br>
+<tests>
+  Quiz 5: <input type="number" id="quiz5" min="0" max="5">
+</tests>
+  </div>
+
+<div class="section">
+<h4>Enter Quiz Marks (All marks above 10 must be entered as 10.)</h4>
+<tests>
+  Quiz 6: <input type="number" id="quiz6" min="0" max="10">
+        </tests>
+<tests>
+  Quiz 7: <input type="number" id="quiz7" min="0" max="10">
+</tests><br>
+<tests>
+  Quiz 8: <input type="number" id="quiz8" min="0" max="10">
+  </tests>
+<tests>
+  Quiz 9: <input type="number" id="quiz9" min="0" max="10">
+  </tests><br>
+<tests>
+  Quiz 10: <input type="number" id="quiz10" min="0" max="10">
+</tests>
+</div>
+<br>‎ 
+</div>
+  <button onclick="calculate()">Calculate</button><br>‎ 
+  <div class="output">
+    <h3>Estimated Semester Mark</h3>
+    <p1 id="result"></p1><br><p5>‎ </p5>
+    </div>‎ 
+
+</div>
+  <script src="script.js"></script>
+  </body>
+<div class="footer">
+  <footer><p>© 2026 Classrep Wabantwana. All rights reserved.</p></footer></div>
+</html>
